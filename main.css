@@ -1,18 +1,70 @@
-#header{
-    height:168px;
-    width:100%;
-    float:center;
-    background-color:rgb(78, 226, 78);
-}
-
-#header h1,h2,a{
-    font: normal 175% 'century gothic', arial, sans-serif;
-    text-align: center;
-    color: rgb(0, 0, 0);
-}
-
 body{ 
-    font: normal .80em 'trebuchet ms', arial, sans-serif;
-    background-color: rgb(114, 126, 109);
-    color: rgb(0, 0, 0);
+	margin: 0;
+	font: normal .80em 'trebuchet ms', arial, sans-serif;
+	background-color:  #00487C;
+	color: #2F4858;
 }
+
+.header,.header h1{
+	height: 240px;
+	width: 100%;
+	background-color: #4BB3FD;
+	position: relative;
+	text-align: center;
+	margin: 0;
+}
+
+.siteTitle h1,h2,a{
+	font: normal 175% 'century gothic', arial, sans-serif;
+	text-align: center;
+	text-decoration: none;
+	color: #2F4858;
+	border-bottom: 0;
+	margin: 0;
+}
+
+#navbar {
+	overflow: hidden;
+	background-color: #333;
+	height:72px;
+	width:900px;
+	margin:auto;
+	z-index: 1;
+	position: fixed;
+	right: 0;
+	left: 0;
+	top:168px;
+}
+  
+#navbar a {
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	color: #f2f2f2;
+	padding: 27px;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+#navbar a:hover{
+	background-color: #33658A;
+	color: #86BBD8;
+}
+
+#navbar a.selected{
+	background-color: #33658A;
+	color: #86BBD8;
+}
+
+.content{
+	position: absolute;
+	display: inline-block;
+	margin:auto;
+	right: 0;
+	left: 0;
+	width:900px;
+	font-size: 150%;
+	background-color: #4BB3FD;
+}
+
+
