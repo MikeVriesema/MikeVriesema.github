@@ -1,0 +1,18 @@
+#header{
+    height:168px;
+    width:100%;
+    float:center;
+    background-color:rgb(78, 226, 78);
+}
+
+#header h1,h2,a{
+    font: normal 175% 'century gothic', arial, sans-serif;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+body{ 
+    font: normal .80em 'trebuchet ms', arial, sans-serif;
+    background-color: rgb(114, 126, 109);
+    color: rgb(0, 0, 0);
+}
